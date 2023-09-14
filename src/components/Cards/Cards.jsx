@@ -43,7 +43,7 @@ const Cards = () => {
   };
 
   return (
-    <div className="container p-14 bg-[#F3F3F3]">
+    <div className="container px-4 py-14 lg:p-14 bg-[#F3F3F3]">
       <h3 className="pb-12 text-3xl font-bold text-center text-[#1C1B1B]">Course Registration</h3>
       <div className="flex flex-col lg:flex-row gap-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -51,7 +51,7 @@ const Cards = () => {
             <Card card={card} handleSelect={handleSelect} key={idx}></Card>
           ))}
         </div>
-        <div className="w-3/5">
+        <div className="w-full md:w-1/2 md:mx-auto lg:w-3/5">
           <Cart cartItem={cartItem} cartPrice={cartPrice} remCredit={remCredit} totalCredit={totalCredit}></Cart>
         </div>
       </div>
