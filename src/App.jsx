@@ -1,9 +1,13 @@
 import "./App.css";
+import Cards from "./components/Cards/Cards";
 
 function App() {
   return (
     <>
-      <h3 className="text-3xl text-[#1C1B1B] font-bold text-center py-12">Course Registration</h3>
+      <div className="container p-14 bg-[#F3F3F3] h-screen">
+        <h3 className="pb-12 text-3xl font-bold text-center text-[#1C1B1B]">Course Registration</h3>
+        <Cards></Cards>
+      </div>
     </>
   );
 }
