@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { GoBook } from "react-icons/go";
 
-const Card = ({ card }) => {
+const Card = ({ card, handleSelect }) => {
   const { image, title, description, price, credit_hours } = card;
   return (
     <div className="bg-white p-4 rounded-lg space-y-4">
@@ -17,13 +17,15 @@ const Card = ({ card }) => {
           <GoBook /> <span className="pl-2">Credit : {credit_hours}</span>
         </div>
       </div>
-      <button className="bg-[#2F80ED] text-white text-lg font-semibold w-full rounded-lg">Select</button>
+      <button onClick={() => handleSelect(card)} className="bg-[#2F80ED] text-white text-lg font-semibold w-full rounded-lg">
+        Select
+      </button>
     </div>
   );
 };
 
 Card.propTypes = {
-  card: PropTypes.array.isRequired,
+  card: PropTypes.object.isRequired,
 };
 
 export default Card;

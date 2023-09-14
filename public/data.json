@@ -5,7 +5,7 @@
     "title": "Software Engineering",
     "description": "Learn the principles and practices of software engineering, including engineering, design, testing, and project management.",
     "price": 99.99,
-    "credit_hours": 3
+    "credit_hours": 4
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "SQL Fundamentals",
     "description": "Master SQL and relational database concepts. Learn to write complex queries, manage data, and optimize database performance.",
     "price": 59.99,
-    "credit_hours": 2
+    "credit_hours": 3
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "Data Structures and Algorithms",
     "description": "Explore fundamental data structures and algorithms. Improve problem-solving skills and optimize code for efficiency.",
     "price": 79.99,
-    "credit_hours": 4
+    "credit_hours": 6
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "title": "Machine Learning Algorithms",
     "description": "Dive into machine learning algorithms and techniques. Build predictive models and gain insights from data.",
     "price": 119.99,
-    "credit_hours": 3
+    "credit_hours": 4
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "title": "AWS Cloud Computing",
     "description": "Learn Amazon Web Services (AWS) for cloud computing. Deploy and manage scalable applications on the cloud.",
     "price": 89.99,
-    "credit_hours": 3
+    "credit_hours": 6
   },
   {
     "id": 6,
@@ -53,7 +53,7 @@
     "title": "Full Stack Web Development",
     "description": "Become a full-stack web developer. Learn front-end and back-end development with popular frameworks.",
     "price": 129.99,
-    "credit_hours": 4
+    "credit_hours": 6
   },
   {
     "id": 8,
@@ -69,6 +69,6 @@
     "title": "Python Object-Orient Programming",
     "description": "Deepen your Python skills with OOP. Create reusable classes, objects, and maintainable code.",
     "price": 59.99,
-    "credit_hours": 2
+    "credit_hours": 3
   }
 ]
