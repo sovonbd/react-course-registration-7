@@ -12,19 +12,19 @@ In this project, states are managed using the useState hook. Here is a summary o
 - Initialized as an empty array using useState([]).
 - Populated with data fetched from "data.json" using the useEffect hook.
 
-1. cartItem state:
+2. cartItem state:
 - Initialized as an empty array using useState([]).
 - Updated when a card is selected and added to the cart using the handleSelect function.
 
-1. 'cartPrice' state:
+3. 'cartPrice' state:
 - Initialized with a value of 0 using useState(0).
 - Incremented when a card is added to the cart using the handleSelect function.
 
-1. 'remCredit' state:
+4. 'remCredit' state:
 - Initialized with a value of 20 using useState(20).
 - Decremented when a card is selected based on its credit hours in the handleSelect function.
 
-1. 'totalCredit' state:
+5. 'totalCredit' state:
 - Initialized with a value of 0 using useState(0).
 - Incremented when a card is selected based on its credit hours in the handleSelect function.
 
