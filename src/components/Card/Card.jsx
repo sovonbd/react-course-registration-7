@@ -7,8 +7,8 @@ const Card = ({ card, handleSelect }) => {
   return (
     <div className="bg-white p-2 lg:p-4 rounded-lg space-y-4">
       <img className="mx-auto w-full" src={image} alt="" />
-      <h3 className="text-lg text-[#1C1B1B] font-semibold">{title}</h3>
-      <p className="text-[#1C1B1B99] text-sm">{description}</p>
+      <h3 className="text-lg text-[#1C1B1B] font-semibold md:h-14 lg:h-auto">{title}</h3>
+      <p className="text-[#1C1B1B99] text-sm md:h-24 lg:h-auto">{description}</p>
       <div className="flex flex-row justify-between text-[#1C1B1B99] font-medium md:text-sm lg:text-base">
         <div className="flex items-center">
           <BsCurrencyDollar className="text-black" /> <span> Price : {price}</span>
@@ -26,6 +26,7 @@ const Card = ({ card, handleSelect }) => {
 
 Card.propTypes = {
   card: PropTypes.object.isRequired,
+  handleSelect: PropTypes.func.isRequired,
 };
 
 export default Card;
