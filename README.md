@@ -1,4 +1,4 @@
-## University Course
+## Course Registration
 
 ### Features used in this project
 - When you click on the select button, it will add the course name, credit hours and course price in the cart.
